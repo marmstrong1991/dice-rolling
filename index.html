@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dice Rolling</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h3>Click The Die To Roll</h3>
+
+        <div class="dice">
+            <!--this will call 1st roll functions  and all have id 1 at the end -->
+            <img class="dice1" src="images/dice1/dice1.png" onclick="diceOneRolled()">
+            <p id="mean1">Mean </p>
+            <p id="mode1">Mode </p>
+            <p id="median1">Median </p>
+        </div>
+
+        <div class="dice">
+            <!--this will call 2nd roll functions  and all have id 2 at the end -->
+            <img class="dice2" src="images/dice2/dice-1.png" onclick="diceTwoRolled()">
+            <img class="dice2" src="images/dice2/dice-1.png" onclick="diceTwoRolled()">
+            <p id="mean2">Mean </p>
+            <p id="mode2">Mode </p>
+            <p id="median2">Median </p>
+        </div>
+
+        <div class="dice">
+            <!--this will call 3rd roll functions  and all have id 3 at the end -->
+            <img class="img3" src="images/dice3/dice.jpg" onclick="diceThreeRolled()">
+            <p id="mean3">Mean </p>
+            <p id="mode3">Mode </p>
+            <p id="median3">Median </p>
+        </div>
+        <div class="dice">
+            <!--this will call tth roll functions  and all have id 4 at the end -->
+            <img class="img3" src="images/dice3/diceblack.jpg" onclick="diceFourRolled()" style="margin-left: 60px;">
+            <p id="mean4">Mean </p>
+            <p id="mode4">Mode </p>
+            <p id="median4">Median </p>
+        </div>
+
+
+
+    </div>
+    <button class="btn" onClick="history.go(0)">RESET ALL ROLLS!</button>
+
+</body>
+
+
+</html>
+<script src="index.js" charset="utf-8"></script>
